@@ -59,6 +59,22 @@ a {
   text-decoration: none;
 }
 
+@media only screen and (min-width: 38em) {
+
+    .first-card {
+      padding-right: .25em;
+    }
+
+    .second-card {
+      padding-left: .25em;
+    }
+
+    .image-card {
+      padding-right: .5em;
+    }
+
+}
+
 @media only screen and (min-width: 60em) {
 
   .nav-2 {
@@ -66,6 +82,24 @@ a {
     text-align: right;
     padding-right: 1em;
     padding-top: 2em;
+  }
+
+  .second-card {
+    padding-left: .125em;
+    padding-right: .125em;
+  }
+
+  .image-card {
+    padding-right: 0;
+    padding-left: .25em;
+  }
+
+}
+
+@media only screen and (min-width: 90em) {
+
+  .nav-2 {
+    margin-right: 4em;
   }
 
 }
