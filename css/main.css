@@ -1,9 +1,7 @@
 html {
-  font-family: 'Noto Sans', sans-serif;
+  font-family: "Noto Sans", sans-serif;
+  color: #000;
 }
-
-
-/*font-family: "Noto Sans Japanese", sans-serif;*/
 
 .nav {
   color: #0084a6;
@@ -38,16 +36,13 @@ footer {
   border-bottom: 0;
 }
 
-.btn {
-  color: #005e76;
-}
-
 .btn-ghost:hover {
   background-color: #8bc9d9;
   border-color: #005e76;
 }
 
 .btn-ghost {
+  color: #005e76;
   border-style: solid;
   border-width: 2px;
   border-color: #8bc9d9;
@@ -59,19 +54,23 @@ a {
   text-decoration: none;
 }
 
+.p-1 {
+  font-family: "Noto Sans Japanese", sans-serif;
+}
+
 @media only screen and (min-width: 38em) {
 
-    .first-card {
-      padding-right: .25em;
-    }
+  .first-card {
+    padding-right: .25em;
+  }
 
-    .second-card {
-      padding-left: .25em;
-    }
+  .second-card {
+    padding-left: .25em;
+  }
 
-    .image-card {
-      padding-right: .5em;
-    }
+  .image-card {
+    padding-right: .5em;
+  }
 
 }
 
