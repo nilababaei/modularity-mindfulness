@@ -6,12 +6,66 @@ html {
 /*font-family: "Noto Sans Japanese", sans-serif;*/
 
 .nav {
-  color: #005e76;
+  color: #0084a6;
   text-decoration: none;
   border-style: solid;
   border-width: 2px;
-  border-color: #8bc9d9;
+  border-color: #0084a6;
   border-left: 0;
   border-right: 0;
   border-top: 0;
+}
+
+.nav:hover {
+  color: #005e76;
+  border-color: #005e76;
+}
+
+.text-section {
+  border-style: solid;
+  border-width: 2px;
+  border-color: #e2e2e2;
+  border-left: 0;
+  border-right: 0;
+}
+
+footer {
+  border-style: solid;
+  border-width: 2px;
+  border-color: #e2e2e2;
+  border-left: 0;
+  border-right: 0;
+  border-bottom: 0;
+}
+
+.btn {
+  color: #005e76;
+}
+
+.btn-ghost:hover {
+  background-color: #8bc9d9;
+  border-color: #005e76;
+}
+
+.btn-ghost {
+  border-style: solid;
+  border-width: 2px;
+  border-color: #8bc9d9;
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+a {
+  text-decoration: none;
+}
+
+@media only screen and (min-width: 60em) {
+
+  .nav-2 {
+    margin-bottom: 0;
+    text-align: right;
+    padding-right: 1em;
+    padding-top: 2em;
+  }
+
 }
