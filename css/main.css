@@ -94,11 +94,3 @@ a {
   }
 
 }
-
-@media only screen and (min-width: 90em) {
-
-  .nav-2 {
-    margin-right: 4em;
-  }
-
-}
