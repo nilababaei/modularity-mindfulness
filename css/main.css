@@ -4,7 +4,7 @@ html {
 }
 
 .nav {
-  color: #0084a6;
+  color: #005e76;
   text-decoration: none;
   border-style: solid;
   border-width: 2px;
@@ -15,8 +15,8 @@ html {
 }
 
 .nav:hover {
-  color: #005e76;
-  border-color: #005e76;
+  color: #000;
+  border-color: #000;
 }
 
 .text-section {
