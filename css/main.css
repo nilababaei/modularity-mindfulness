@@ -42,7 +42,6 @@ footer {
 }
 
 .btn-ghost {
-  color: #005e76;
   border-style: solid;
   border-width: 2px;
   border-color: #8bc9d9;
@@ -51,6 +50,7 @@ footer {
 }
 
 a {
+  color: #005e76;
   text-decoration: none;
 }
 
